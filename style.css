@@ -1,0 +1,36 @@
+/* Styles go here */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  text-align: left;
+}
+
+td:first-child + td + td:hover {
+  background: -moz-linear-gradient(top, #249ee4, #057cc0);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#249ee4), to(#057cc0));  
+}
+
+td:first-child + td + td:active { 
+  background: -moz-linear-gradient(top, #057cc0, #249ee4);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#057cc0), to(#249ee4)); 
+
+}
+
+td:first-child + td + td{
+  cursor:pointer;
+  background: -moz-linear-gradient(top, #ffffff, #D1E3E9);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#D1E3E9));
+  text-align:center;
+}
+ 
+
+table {
+  border-spacing: 5px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="jquery@3.2.1" data-semver="3.2.1" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <center>
+          <h1>Java Developer Take Home Quiz</h1>
+          <h4>by Phuong Nguyen - phv.nguyen@gmail.com</h4>
+        </center>
+      </div>
+      <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-12 col-sm-offset-1">
+              <form id="form1" runat="server" class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-sm-5">
+                    <div class="col-sm-6">
+                      <input type="file" accept=".csv" id="fileUpload" />
+                    </div>
+                    <div class="col-sm-6">
+                      <br />
+                      <input type="button" id="upload" class="btn btn-primary" value="Upload" />
+                      <br />
+                      <br />
+                    </div>
+                  </div>
+                  <div class="col-sm-7">
+                    <center>
+                      <div class="row">
+                        <div class="col-sm">
+                        Date range filter
+                      </div>
+                      </div>
+                      <br />
+                      <input name="search" id="fromDate" placeholder="from date: dd/mm/yyyy" />
+                      <input name="search" id="toDate" placeholder="to date: dd/mm/yyyy" />
+                      <br />
+                      <br />
+                      <br />
+                    </center>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="panel panel-default" style="align-self: center">
+              <div class="panel-body" style="max-height: 450px; min-height: 400px; overflow-y: scroll;">
+                <div class="row">
+                  <div class="col-sm-12" id="dvCSV">
+                    <table id="my-table"></table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
