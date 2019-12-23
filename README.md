@@ -7,6 +7,8 @@ The files included:
 * detail_style.css: detail page style file
 * eng-climate-summary.csv: sample data file.
 * README.md: this file
+* TestCase.rtf: Test cases for the solution.
+
 
 Steps to compile in Maven:
 * Incorparate the code into proper project directory, e.g: src/main/javascript/... and scr/test/javascript/...
