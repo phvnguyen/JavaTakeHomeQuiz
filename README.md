@@ -23,4 +23,4 @@ GitHub repository:
 https://github.com/phvnguyen/JavaTakeHomeQuiz
 
 Online code experimenting:
-http://embed.plnkr.co/3uGBS9wHOufsaf52vZCb/
+https://phvnguyen.github.io/JavaTakeHomeQuiz/
