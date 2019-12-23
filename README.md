@@ -7,7 +7,7 @@ The files included:
 * detail_style.css: detail page style file
 * eng-climate-summary.csv: sample data file.
 * README.md: this file
-* TestCase.rtf: Test cases for the solution.
+* TestCases.rtf: Test cases for the solution.
 
 
 Steps to compile in Maven:
