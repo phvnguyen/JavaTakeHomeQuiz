@@ -15,9 +15,9 @@ Steps to compile in Maven:
 
 To Run the solution, follow the steps:
 * Load the data file by clicking the "Choose File" button, select the required CVS data file, e.g: "eng-climate-summary.cvs"
-* Specify the data to be filter in, if needed; in the required format in the two date fields.
+* Specify the data to be filtered in, if needed; in the required format in the two date fields.
 * Click "Upload" button to have the data populated; another window page should appear, and ready for detailed data next.
-* Select any Mean_Temp cell in the Main page to have the deatailed data pupolated in the Detail page.
+* Select any Mean_Temp cell in the Main page to have the deatailed data populated in the Details page.
 
 GitHub repository:
 https://github.com/phvnguyen/JavaTakeHomeQuiz
